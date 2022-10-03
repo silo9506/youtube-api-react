@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.js": "/youtube-api-react/static/js/main.e020536e.js",
+    "main.css": "/youtube-api-react/static/css/main.16d090bf.css",
+    "main.js": "/youtube-api-react/static/js/main.49c72373.js",
     "static/js/787.14079cb7.chunk.js": "/youtube-api-react/static/js/787.14079cb7.chunk.js",
     "static/media/logo01.svg": "/youtube-api-react/static/media/logo01.831fc9fa0329ef80470901cf6baff03a.svg",
+    "index.html": "/youtube-api-react/index.html",
     "static/media/like01.svg": "/youtube-api-react/static/media/like01.20623127ccc0351ba3e8375b678afb23.svg",
     "static/media/hate01.svg": "/youtube-api-react/static/media/hate01.03e30276eeef6aa66b34d877858aba5f.svg",
-    "index.html": "/youtube-api-react/index.html",
     "static/media/avatar01.svg": "/youtube-api-react/static/media/avatar01.939b9e07fdbc1e4d5d2dafed9034d42b.svg",
     "static/media/alarm01.svg": "/youtube-api-react/static/media/alarm01.fc8a25bf1c563580ffe61f6075e6ad64.svg",
     "static/media/dotmenu01.svg": "/youtube-api-react/static/media/dotmenu01.9e7542b0c8be4c60efeaeefbb1345575.svg",
@@ -17,10 +18,12 @@
     "static/media/recording01.svg": "/youtube-api-react/static/media/recording01.201b2fabec2eb638060bdcbbf6795906.svg",
     "static/media/playlist01.svg": "/youtube-api-react/static/media/playlist01.db9b00608abd6f96168e182ca5869f07.svg",
     "static/media/hamburger01.svg": "/youtube-api-react/static/media/hamburger01.046a8b19dd9d111bf1bce0b9d5ebafa9.svg",
-    "main.e020536e.js.map": "/youtube-api-react/static/js/main.e020536e.js.map",
+    "main.16d090bf.css.map": "/youtube-api-react/static/css/main.16d090bf.css.map",
+    "main.49c72373.js.map": "/youtube-api-react/static/js/main.49c72373.js.map",
     "787.14079cb7.chunk.js.map": "/youtube-api-react/static/js/787.14079cb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.e020536e.js"
+    "static/css/main.16d090bf.css",
+    "static/js/main.49c72373.js"
   ]
 }
