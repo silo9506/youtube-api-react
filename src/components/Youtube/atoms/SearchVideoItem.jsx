@@ -15,23 +15,34 @@ const Container = styled.div`
 const Thumbnail = styled.img`
   width: 360px;
   margin-right: 16px;
-  @media screen and (max-width: 650px) {
-    width: 100%;
+  @media screen and (max-width: 800px) {
+    width: unset;
+    flex: 0.6;
     min-width: 240px;
     padding-bottom: 40px;
+  }
+  @media screen and (max-width: 650px) {
+    min-width: 240px;
+    margin: auto;
+    padding-bottom: 0px;
+    width: 100%;
   }
 `;
 const Videoinfo = styled.div`
   position: relative;
-  flex: 1;
-  /* @media screen and (max-width: 810px) {
-    width: 0px;
-  } */
+  flex: 0.8;
+  // @media screen and (max-width: 450px) {
+  //   width: unset;
+  //   margin: auto;
+  // }
 `;
 
 const Channelinfo = styled.div`
   display: flex;
   padding: 12px 0;
+  @media screen and (max-width: 650px) {
+    padding: 0;
+  }
 `;
 const Avater = styled.img`
   height: 24px;
@@ -42,14 +53,20 @@ const Textbox = styled.div`
   padding-right: 24px;
   font-size: 14px;
   width: 100%;
+  // @media screen and (max-width: 450px) {
+  //   padding: 0px;
+  // }
 `;
 const Iconwrapper = styled.div`
   border-radius: 50%;
   position: absolute;
   padding: 6px;
   top: 0px;
-  right: 0px;
+  right: 10px;
   transform: translate(50%, -6px);
+  @media screen and (max-width: 650px) {
+    right: 20px;
+  }
 `;
 const Title = styled.div`
   margin-bottom: 6px;
@@ -61,6 +78,9 @@ const Title = styled.div`
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  @media screen and (max-width: 650px) {
+    width: 80%;
+  }
 `;
 const Metadata = styled.div`
   font-size: 13px;
@@ -72,6 +92,13 @@ const Metadata = styled.div`
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
+  width: unset;
+  // @media screen and (max-width: 450px) {
+  //   display: flex;
+  //   white-space: nowrap;
+  //   justify-content: right;
+  //   // margin: auto;
+  // }
 `;
 const SearchVideoItem = ({ data, channel }) => {
   const publishedAt = () => {

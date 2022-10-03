@@ -40,7 +40,7 @@ const Container = styled.div`
 const Main = () => {
   const [videoList, setVideoList] = useState(null);
   const [params, setParams] = useState(null);
-  const [showSidebar, setShowsidebar] = useState(true);
+  const [showSidebar, setShowsidebar] = useState(false);
   const [channelData, setchannelData] = useState(null);
   const [searchData, setSearchData] = useState(null);
   const [showMine, setShowMine] = useState(true);
@@ -104,6 +104,19 @@ const Main = () => {
     };
     searchVideos();
   }, [params]);
+
+  useEffect(() => {
+    window.addEventListener("resize", onResize);
+    return () => {
+      window.removeEventListener("resize", onResize);
+    };
+  }, []);
+
+  const onResize = () => {
+    if (window.innerWidth < 810) {
+      setShowsidebar(false);
+    }
+  };
 
   return (
     <Container showSidebar={showSidebar} isWatch={isWatch}>

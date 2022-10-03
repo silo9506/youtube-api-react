@@ -13,6 +13,9 @@ const Container = styled.div`
   & > :first-child {
     padding-left: 16px;
   }
+  @media screen and (max-width: 810px) {
+    z-index: 1;
+  }
 `;
 const Menu = styled.div`
   display: flex;

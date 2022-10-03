@@ -11,6 +11,9 @@ const Container = styled.div`
   padding: 24px 24px 0 24px;
   max-width: 1300px;
   background-color: black;
+  @media screen and (max-width: 400px) {
+    padding: 24px 0px;
+  }
 `;
 const Vediobox = styled.div`
   flex: 1;
@@ -19,6 +22,9 @@ const Vediobox = styled.div`
   @media screen and (max-width: 810px) {
     width: 100%;
     height: 100%;
+  }
+  @media screen and (max-width: 400px) {
+    padding: 0px;
   }
 `;
 const Vedio = styled.div`

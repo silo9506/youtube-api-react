@@ -4,9 +4,13 @@ import { useEffect, useState } from "react";
 import SearchVideoItem from "../atoms/SearchVideoItem";
 
 const Container = styled.div`
-  flex: 1;
+  // flex: 1;
   padding: 16px 48px;
   max-width: 1096px;
+  @media screen and (max-width: 800px) {
+    padding: 16px 0px;
+    margin: 0;
+  }
 `;
 const SearchVideo = () => {
   const [videoList, setVideoList] = useState(null);
