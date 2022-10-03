@@ -10,6 +10,8 @@ const Container = styled.div`
   margin-bottom: 8px;
   @media screen and (max-width: 650px) {
     flex-direction: column;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #202020;
   }
 `;
 const Thumbnail = styled.img`
@@ -31,10 +33,9 @@ const Thumbnail = styled.img`
 const Videoinfo = styled.div`
   position: relative;
   flex: 0.8;
-  // @media screen and (max-width: 450px) {
-  //   width: unset;
-  //   margin: auto;
-  // }
+  @media screen and (max-width: 600px) {
+    padding-left: 10px;
+  }
 `;
 
 const Channelinfo = styled.div`
@@ -53,9 +54,9 @@ const Textbox = styled.div`
   padding-right: 24px;
   font-size: 14px;
   width: 100%;
-  // @media screen and (max-width: 450px) {
-  //   padding: 0px;
-  // }
+  @media screen and (max-width: 600px) {
+    padding-right: 0px;
+  }
 `;
 const Iconwrapper = styled.div`
   border-radius: 50%;
@@ -80,6 +81,7 @@ const Title = styled.div`
   -webkit-box-orient: vertical;
   @media screen and (max-width: 650px) {
     width: 80%;
+    margin-right: auto;
   }
 `;
 const Metadata = styled.div`

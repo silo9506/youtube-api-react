@@ -48,6 +48,9 @@ const Meta = styled.div`
 const Iconbox = styled.div`
   display: flex;
   align-items: center;
+  @media screen and (max-width: 650px) {
+    margin-right: auto;
+  }
 `;
 const Iconwrapper = styled.div`
   padding: 6px;

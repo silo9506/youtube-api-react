@@ -25,11 +25,10 @@ const Inputwrapper = styled.div`
   box-sizing: border-box;
   background-color: #181818;
   border: 1px solid #313131;
-  ${({ onhover }) => onhover && `border-color:#1d5191;`}
-
-  @media screen and (max-width: 650px) {
-    display: none;
-  }
+  ${({ onhover }) =>
+    onhover && `border-color:#1d5191;`}// @media screen and (max-width: 650px) {
+  //   display: none;
+  // }
 `;
 const Hoverbox = styled.div`
   padding: 0 10px;
@@ -47,6 +46,9 @@ const Input = styled.input`
 const Keybord = styled.img`
   position: absolute;
   right: 12px;
+  @media screen and (max-width: 650px) {
+    display: none;
+  }
 `;
 const Button = styled.button`
   cursor: pointer;
@@ -56,12 +58,15 @@ const Button = styled.button`
   padding: 1px 6px;
   border: none;
 
-  @media screen and (max-width: 650px) {
-    background-color: unset;
-    padding: 8px;
-    width: 24px;
-    height: 24px;
-    margin-right: 16px;
+  // @media screen and (max-width: 650px) {
+  //   background-color: unset;
+  //   padding: 8px;
+  //   width: 24px;
+  //   height: 24px;
+  //   margin-right: 16px;
+  // }
+  @media screen and (max-width: 500px) {
+    display: none;
   }
 `;
 const IconWrapper = styled.div`

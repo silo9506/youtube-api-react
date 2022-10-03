@@ -7,20 +7,23 @@ import { ReactComponent as Avatar } from "../../../assets/svg/youtube/avatar01.s
 
 const Container = styled.div`
   display: flex;
-  @media screen and (max-width: 460px) {
-    & > :first-child {
-      display: none;
-    }
+  @media screen and (max-width: 650px){
+    display:none;
   }
-  @media screen and (max-width: 410px) {
-    & > :nth-child(2) {
-      display: none;
-    }
-  }
-  @media screen and (max-width: 320px) {
-    & > :nth-child(3) {
-      display: none;
-    }
+  // @media screen and (max-width: 460px) {
+  //   & > :first-child {
+  //     display: none;
+  //   }
+  // }
+  // @media screen and (max-width: 410px) {
+  //   & > :nth-child(2) {
+  //     display: none;
+  //   }
+  // }
+  // @media screen and (max-width: 320px) {
+  //   & > :nth-child(3) {
+  //     display: none;
+  //   }
   }
 `;
 const IconWrapper = styled.div`
