@@ -6,6 +6,12 @@ const Container = styled.div`
   cursor: pointer;
   color: white;
   margin: 0px 8px 40px;
+  @media screen and (max-width: 650px) {
+    padding-bottom: 5px;
+    border-bottom: 5px solid #202020;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
 
   ${({ ismini }) =>
     ismini &&

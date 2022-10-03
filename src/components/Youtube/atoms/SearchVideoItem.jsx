@@ -10,8 +10,6 @@ const Container = styled.div`
   margin-bottom: 8px;
   @media screen and (max-width: 650px) {
     flex-direction: column;
-    padding-bottom: 5px;
-    border-bottom: 3px solid #202020;
   }
 `;
 const Thumbnail = styled.img`

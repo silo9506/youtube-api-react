@@ -9,7 +9,9 @@ import {
   getSearchVideoList,
   getVideoList,
 } from "../data/youtube/apis";
+
 const Container = styled.div`
+  min-width: 0px;
   top: 0;
   bottom: 0;
   left: 0;

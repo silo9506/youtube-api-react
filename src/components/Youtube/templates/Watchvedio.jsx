@@ -7,9 +7,10 @@ import Channelinfo from "../atoms/Channelinfo";
 
 const Container = styled.div`
   display: flex;
-  flex: 1;
+  /* flex: 1; */
   padding: 24px 24px 0 24px;
   max-width: 1300px;
+  min-width: 0px;
   background-color: black;
   @media screen and (max-width: 400px) {
     padding: 24px 0px;

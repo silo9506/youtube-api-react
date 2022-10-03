@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import SearchVideoItem from "../atoms/SearchVideoItem";
 
 const Container = styled.div`
+  min-width: 0px;
   // flex: 1;
   padding: 16px 48px;
   max-width: 1096px;
