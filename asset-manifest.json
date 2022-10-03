@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/youtube-api-react/static/js/main.8b10fb92.js",
+    "main.js": "/youtube-api-react/static/js/main.0732ed80.js",
     "static/js/787.14079cb7.chunk.js": "/youtube-api-react/static/js/787.14079cb7.chunk.js",
     "static/media/logo01.svg": "/youtube-api-react/static/media/logo01.831fc9fa0329ef80470901cf6baff03a.svg",
     "static/media/like01.svg": "/youtube-api-react/static/media/like01.20623127ccc0351ba3e8375b678afb23.svg",
@@ -17,10 +17,10 @@
     "static/media/recording01.svg": "/youtube-api-react/static/media/recording01.201b2fabec2eb638060bdcbbf6795906.svg",
     "static/media/playlist01.svg": "/youtube-api-react/static/media/playlist01.db9b00608abd6f96168e182ca5869f07.svg",
     "static/media/hamburger01.svg": "/youtube-api-react/static/media/hamburger01.046a8b19dd9d111bf1bce0b9d5ebafa9.svg",
-    "main.8b10fb92.js.map": "/youtube-api-react/static/js/main.8b10fb92.js.map",
+    "main.0732ed80.js.map": "/youtube-api-react/static/js/main.0732ed80.js.map",
     "787.14079cb7.chunk.js.map": "/youtube-api-react/static/js/787.14079cb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8b10fb92.js"
+    "static/js/main.0732ed80.js"
   ]
 }
